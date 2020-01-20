@@ -1,0 +1,13 @@
+:root {
+  --color-primary: black;
+  --color-secondary: #980039;
+  --color-secondary-light: #AF0041;
+  --color-yellow: #EBC368;
+  --color-background: #FEFAF9;
+
+  --font-primary: 'Lato', sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
