@@ -1,7 +1,7 @@
 :root {
   --color-primary: black;
   --color-secondary: #980039;
-  --color-secondary-light: #AF0041;
+  --color-secondary-light: #B61651;
   --color-yellow: #EBC368;
   --color-background: #FEFAF9;
 
@@ -11,3 +11,60 @@
 html {
   font-family: var(--font-primary);
 }
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+  font-weight: 700;
+}
+
+p {
+  line-height: 1.19em;
+}
+
+ul {
+  list-style: none;
+}
+
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: .5px solid inherit;
+  color: grey;
+}
+
+a:hover,
+a:focus {
+  border-bottom: .5px solid var(--color-secondary-light);
+  color: var(--color-secondary-light);
+}
+
+a:active {
+  border-bottom: .5px solid var(--color-secondary);
+  color: var(--color-secondary);
+}
+ a:visited {
+  border-bottom: .5px solid #98008C;
+  color: #98008C;
+ }
