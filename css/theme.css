@@ -13,23 +13,11 @@ html {
 }
 
 h1 {
-
+  font-weight: 700;
 }
 
 h2 {
-
-}
-
-h3 {
-
-}
-
-h4 {
-
-}
-
-h5 {
-
+  font-weight: 700;
 }
 
 h6 {
@@ -46,6 +34,7 @@ ul {
 
 ol {
   list-style: none;
+  color: var(--color-yellow)
 }
 
 a {
@@ -66,5 +55,5 @@ a:active {
 }
  a:visited {
   border-bottom: 1px solid #98008C;
-  color: #9806;
+  color: #98008C;
  }
