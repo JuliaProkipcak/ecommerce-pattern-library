@@ -6,6 +6,13 @@ patternbot:
   description: |
     A luxury jewelry brand for any occasion, without the traditional markups. New designs dropping every other Monday to help you keep up with the current trends.
   font_url: "https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap"
+  colors:
+    background: "--color-background"
+    accent: "color--primary"
+    patterns:
+      brand.logos: "--colour-primary"
   rationales:
     typefaces.primary: |
       Lato was chosen as the primary font because it is a modern and pleasing font. Although there are many options for modern fonts, this one specifically is very neutral so it won't look off-putting next to any of the jewelry photos. Lato is the only font, it is to be used for each part of the website using its different weights and sizes to add emphasis.
+    colors.primary: The primary colour is black because all of the text will be black until it is used on buttons or banners.
+    colors.secondary: The secondary colour is a burgundy, the warmth and darkness of the colour compliments the photography really well. It also stands out very well from the primary colour and the background colour.
