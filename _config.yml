@@ -2,4 +2,7 @@ premalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  title:"Opal & Twine"
+  description: |
+  A luxury jewelry brand for any occasion, without the traditional markups. New designs dropping every other Monday to help you keep up with the current trends.
   font_url: "https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap"
