@@ -1,0 +1,15 @@
+a {
+  background-color: #000;
+}
+
+.card-text {
+  text-decoration: none;
+}
+
+.card {
+  border: 1px solid var(--color-yellow);
+}
+
+.card:hover {
+  box-shadow: 4px 4px var(--color-yellow);
+}

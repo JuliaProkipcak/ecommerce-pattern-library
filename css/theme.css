@@ -37,23 +37,23 @@ ol {
   color: var(--color-yellow)
 }
 
-a {
+.footer-link {
   text-decoration: none;
   border-bottom: 1px solid inherit;
   color: grey;
 }
 
-a:hover,
-a:focus {
+.footer-link:hover,
+.footer-link:focus {
   border-bottom: 1px solid var(--color-secondary-light);
   color: var(--color-secondary-light);
 }
 
-a:active {
+.footer-link:active {
   border-bottom: 1px solid var(--color-secondary);
   color: var(--color-secondary);
 }
- a:visited {
+.footer-link:visited {
   border-bottom: 1px solid #98008C;
   color: #98008C;
  }
