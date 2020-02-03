@@ -12,13 +12,13 @@
 
 .btn-light {
   background: transparent;
-  border-color: white;
+  border: 2px solid white;
   color: white;
 }
 
 .btn-light:hover {
   background-color: white;
-  border-color: white;
+  border: 2px solid white;
   color: var(--color-primary);
 }
 

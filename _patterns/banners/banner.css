@@ -1,0 +1,15 @@
+.rel {
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  color: white;
+}
+
+.fill {
+  color: white;
+  align-items: center;
+  background-color: var(--color-yellow);
+}
