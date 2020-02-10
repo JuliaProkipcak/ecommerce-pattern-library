@@ -1,0 +1,22 @@
+title: "Buttons"
+description: |
+  Buttons should be used in situations where a dramatic, ovbious action is required. Try not ot over use buttons because they should be the primary call-to-action for a screen.
+
+patterns:
+  basic:
+    title: "Basic"
+    description: |
+      Default to basic button for the most important action on the page. This button should be used in front of light backgrounds only.
+  btn-ghost:
+    title: "Ghost"
+    description: |
+      Button ghost should be used for the navigation, this will be placed on a light coloured background.
+  btn-light:
+    title: "Light"
+    description: |
+      Button Light should be used on all banners, either on top of the yellow background or directly on top of the image. Choose dark images as this button is light coloured.
+    background: "--color-yellow"
+  btn-add:
+    title: "Add"
+    description: |
+      Use this button for the "Add to Cart" action, you can also use its code to make any other icon buttons.

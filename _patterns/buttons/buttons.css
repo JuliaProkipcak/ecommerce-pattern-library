@@ -10,6 +10,11 @@
   border: none;
 }
 
+.btn:visited {
+  color: white;
+  border: none;
+}
+
 .btn-light {
   background: transparent;
   border: 2px solid white;
@@ -25,9 +30,11 @@
 .btn-ghost {
   background: transparent;
   color: var(--color-primary);
+  border-bottom: 2px solid var(--color-primary);
 }
 
 .btn-ghost:hover {
   background: transparent;
   color: var(--color-secondary);
+  border-bottom: 2px solid var(--color-secondary);
 }

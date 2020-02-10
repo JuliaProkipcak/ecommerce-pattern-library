@@ -54,22 +54,6 @@ a {
   color: grey;
 }
 
-a:hover,
-a:focus {
-  border-bottom: 2px solid var(--color-secondary-light);
-  color: var(--color-secondary-light);
-}
-
-a:active {
-  border-bottom: 2px solid var(--color-secondary);
-  color: var(--color-secondary);
-}
-
-a:visited {
-  border-bottom: 2px solid #98008C;
-  color: #98008C;
- }
-
 a-bread {
    text-decoration: none;
    border-bottom: 2px solid grey;

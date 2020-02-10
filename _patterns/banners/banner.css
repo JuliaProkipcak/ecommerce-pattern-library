@@ -16,11 +16,18 @@
 
 .main-banner {
   background-color: var(--color-yellow);
-  background-image: url("/images/icons/cart.png");
+  background-image: url("/images/banner-2.jpg");
   height: 15em;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
+
+@media only screen and (min-width: 60em) {
+
+  .img-2 {
+    max-height: 18em;
+  }
+
 }
