@@ -1,0 +1,16 @@
+ul > li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .align {
+    text-align: right;
+  }
+
+}

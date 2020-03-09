@@ -1,0 +1,31 @@
+hr {
+  border-top: 1px solid lightgrey;
+}
+
+.footer a {
+  color: grey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.footer a:hover,
+.footer a:focus {
+  color: var(--color-primary);
+}
+
+a:hover {
+  border-bottom: solid var(--color-primary) 1px;
+}
+
+.icon-style {
+  color: grey;
+  background: transparent;
+  border-bottom: none;
+}
+
+.icon-style:hover,
+.icon-style:focus {
+  color: var(--color-primary);
+  outline: none;
+  border-bottom: none;
+}

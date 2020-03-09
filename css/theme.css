@@ -48,12 +48,6 @@ mark {
   background-color: var(--color-yellow);
 }
 
-a {
-  text-decoration: none;
-  border-bottom: 2px solid grey;
-  color: grey;
-}
-
 a-bread {
    text-decoration: none;
    border-bottom: 2px solid grey;
