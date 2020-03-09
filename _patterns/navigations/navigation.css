@@ -1,0 +1,45 @@
+a {
+  background-color: transparent;
+  color: var(--color-primary);
+}
+
+a:hover {
+  color: var(--color-secondary);
+  border-bottom: transparent;
+  font-weight: bold;
+}
+
+.icon-style {
+  color: var(--color-primary);
+}
+
+.icon-style:hover,
+.icon-style:focus {
+  color: var(--color-secondary);
+  outline: none;
+  border-bottom: transparent;
+}
+
+.skips {
+  color: var(--color-secondary);
+  text-decoration: underline;
+}
+
+.skips:hover,
+.skips:focus {
+  color: var(--color-secondary-light);
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+.bread {
+  color: grey;
+  text-decoration: underline;
+}
+
+.bread:hover,
+.bread:focus {
+  color: var(--color-primary);
+  text-decoration: underline;
+  font-weight: normal;
+}

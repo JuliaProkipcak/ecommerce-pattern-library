@@ -30,7 +30,8 @@
 .btn-ghost {
   background: transparent;
   color: var(--color-primary);
-  border-bottom: 2px solid var(--color-primary);
+  text-decoration: underline;
+
 }
 
 .btn-ghost:hover {
