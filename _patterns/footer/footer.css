@@ -17,14 +17,14 @@ a:hover {
   border-bottom: solid var(--color-primary) 1px;
 }
 
-.icon-style {
+.i-c {
   color: grey;
   background: transparent;
   border-bottom: none;
 }
 
-.icon-style:hover,
-.icon-style:focus {
+.i-c:hover,
+.i-c:focus {
   color: var(--color-primary);
   outline: none;
   border-bottom: none;
