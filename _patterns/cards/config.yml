@@ -1,0 +1,12 @@
+patterns:
+  basic:
+    title: "Product Card"
+    description: |
+      This card can be used to display any product anywhere on the website.
+    fields:
+      - name: text
+        type: string
+        example: "Product Name"
+      - name: img
+        type: string
+        example: "Product Name"

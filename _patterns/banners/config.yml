@@ -12,7 +12,7 @@ patterns:
         example: "Exquisite styles at affordable prices."
       - name: banner
         type: string
-        example: "banner-2.jpg"
+        example: "/images/banners/banner-2.jpg"
   secondary-banner:
     title: "Secondary"
     description: |
