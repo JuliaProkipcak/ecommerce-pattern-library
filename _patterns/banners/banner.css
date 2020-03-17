@@ -16,7 +16,6 @@
 
 .main-banner {
   background-color: var(--color-yellow);
-  background-image: url("/images/banner-2.jpg");
   height: 15em;
   background-position: center;
   background-repeat: no-repeat;

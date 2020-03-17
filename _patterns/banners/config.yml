@@ -1,0 +1,29 @@
+patterns:
+  main-banner:
+    fields:
+      - name: heading
+        type: string
+        example: "INDULGE IN LUXURY"
+      - name: text
+        type: string
+        example: "Exquisite styles at affordable prices."
+      - name: banner
+        type: string
+        example: "banner-2.jpg"
+  secondary-banner:
+    fields:
+      - name: heading
+        type: string
+        example: "SHOP THE COLLECTION"
+      - name: text
+        type: string
+        example: "Beautiful and original pieces that make statements."
+      - name: banner-l
+        type: string
+        example: "banner-l.jpg"
+      - name: banner-m
+        type: string
+        example: "banner-m.jpg"
+      - name: banner-s
+        type: string
+        example: "banner-s.jpg"
