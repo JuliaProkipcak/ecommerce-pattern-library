@@ -25,7 +25,7 @@ patterns:
       Button Light should be used on all banners, either on top of the yellow background or directly on top of the image. Choose dark images as this button is light coloured.
     background: "--color-yellow"
     fields:
-      - name: btn-text
+      - name: text
         type: string
         example: "Click Me!"
       - name: url

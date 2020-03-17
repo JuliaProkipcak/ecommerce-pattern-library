@@ -10,10 +10,10 @@ patterns:
       - name: text
         type: string
         example: "Exquisite styles at affordable prices."
-      - name: btn-text
+      - name: button_text
         type: string
         example: "Click Me!"
-      - name: url
+      - name: button_url
         type: string
         example: "#"
       - name: banner
@@ -39,3 +39,9 @@ patterns:
       - name: banner-s
         type: string
         example: "banner-s.jpg"
+      - name: button_text
+        type: string
+        example: "Click Me!"
+      - name: button_url
+        type: string
+        example: "#"
