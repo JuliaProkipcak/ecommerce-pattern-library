@@ -1,5 +1,8 @@
 patterns:
   main-banner:
+    title: "Main"
+    description: |
+      Use this banner on the home page of the website, it should always be the most important banner on the page.
     fields:
       - name: heading
         type: string
@@ -11,6 +14,9 @@ patterns:
         type: string
         example: "banner-2.jpg"
   secondary-banner:
+    title: "Secondary"
+    description: |
+      This banner can be used on any page of the website, multiple can be used per page.
     fields:
       - name: heading
         type: string

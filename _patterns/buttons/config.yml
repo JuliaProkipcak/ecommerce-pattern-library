@@ -7,16 +7,32 @@ patterns:
     title: "Basic"
     description: |
       Default to basic button for the most important action on the page. This button should be used in front of light backgrounds only.
+    fields:
+      - name: text
+        type: string
+        example: "Click Me!"
   btn-ghost:
     title: "Ghost"
     description: |
       Button ghost should be used for the navigation, this will be placed on a light coloured background.
+    fields:
+      - name: text
+        type: string
+        example: "Click Me!"
   btn-light:
     title: "Light"
     description: |
       Button Light should be used on all banners, either on top of the yellow background or directly on top of the image. Choose dark images as this button is light coloured.
     background: "--color-yellow"
+    fields:
+      - name: text
+        type: string
+        example: "Click Me!"
   btn-add:
     title: "Add"
     description: |
       Use this button for the "Add to Cart" action, you can also use its code to make any other icon buttons.
+    fields:
+      - name: text
+        type: string
+        example: "ADD TO CART"
