@@ -10,6 +10,12 @@ patterns:
       - name: text
         type: string
         example: "Exquisite styles at affordable prices."
+      - name: btn-text
+        type: string
+        example: "Click Me!"
+      - name: url
+        type: string
+        example: "#"
       - name: banner
         type: string
         example: "/images/banners/banner-2.jpg"

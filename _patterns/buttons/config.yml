@@ -28,6 +28,9 @@ patterns:
       - name: btn-text
         type: string
         example: "Click Me!"
+      - name: url
+        type: string
+        example: "#"
   btn-add:
     title: "Add"
     description: |
