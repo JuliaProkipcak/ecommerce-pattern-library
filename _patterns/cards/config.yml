@@ -6,7 +6,10 @@ patterns:
     fields:
       - name: text
         type: string
-        example: "Product Name"
+        example: "Pretty Bracelet Name"
       - name: img
         type: string
-        example: "Product Name"
+        example: "bracelet-1.jpg"
+      - name: url
+        type: string
+        example: "#"
