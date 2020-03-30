@@ -1,0 +1,64 @@
+patterns:
+  breadcrumbs:
+    title: "Breadcrumbs"
+    description: |
+      Breadcrumbs can be used on an individual product page to show the chain of pages used to get to the current page, and provide links to go back to any of them.
+    fields:
+      - name: url1
+        type: string
+        example: "/index/"
+      - name: text1
+        type: string
+        example: "Home"
+      - name: url2
+        type: string
+        example: "/products/"
+      - name: text2
+        type: string
+        example: "Products"
+      - name: url3
+        type: string
+        example: "/products/bracelets/"
+      - name: text3
+        type: string
+        example: "Bracelets"
+      - name: url4
+        type: string
+        example: "/current-page/"
+      - name: text4
+        type: string
+        example: "Pretty Bracelet"
+  page-nav:
+    title: "Page Navigation"
+    description: |
+      The page navigation can be used on the products page if there are multiple pages worth of items being sold.
+    fields:
+      - name: url1
+        type: string
+        example: "#"
+      - name: url2
+        type: string
+        example: "#"
+      - name: url3
+        type: string
+        example: "#"
+      - name: url4
+        type: string
+        example: "#"
+      - name: url5
+        type: string
+        example: "#"
+  skip-links:
+    title: "Skip Links"
+    description: |
+      Use the skip links to create navigation between different sections on the products page.
+    fields:
+      - name: url1
+        type: string
+        example: "#"
+      - name: url2
+        type: string
+        example: "#"
+      - name: url3
+        type: string
+        example: "#"
