@@ -1,0 +1,21 @@
+patterns:
+  array-1-4:
+    title: "Product Photo Array"
+    description: |
+      Use this image array for displaying product photos on any individual product page.
+    fields:
+      - name: url1
+        type: string
+        example: "/images/products/bracelet-1.jpg"
+      - name: url2
+        type: string
+        example: "https://via.placeholder.com/100x100"
+      - name: url3
+        type: string
+        example: "https://via.placeholder.com/100x100"
+      - name: url4
+        type: string
+        example: "https://via.placeholder.com/100x100"
+      - name: url5
+        type: string
+        example: "https://via.placeholder.com/100x100"
