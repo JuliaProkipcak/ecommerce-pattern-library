@@ -1,13 +1,13 @@
 <div>
-  <select name="{{include.label}}" id="{{include.label}}" class="placeholder" required aria-describedby="{{include.error}}">
-    <option disabled selected>{{include.option-label}}</option>
-    <option>{{include.option}}</option>
-    <option>{{include.option}}</option>
-    <option>{{include.option}}</option>
-    <option>{{include.option}}</option>
+  <select name="dropdown" id="dropdown" class="placeholder" required aria-describedby="selection-error">
+    <option disabled selected>{{include.option1}}</option>
+    <option>{{include.option2}}</option>
+    <option>{{include.option3}}</option>
+    <option>{{include.option4}}</option>
+    <option>{{include.option5}}</option>
   </select>
-  <p class="error-message pad-t-1-4 push-0" id="{{include.error}}">
-    <i class="icon i-16"><svg><use xlink:href="/images/icons.svg#{{include.id}}"</svg></i>
-    <span class="icon-label">{{include.icon-label}}</span>
+  <p class="error-message pad-t-1-4 push-0" id="selection-error">
+    <i class="icon i-16"><svg><use xlink:href="/images/icons.svg#error"</svg></i>
+    <span class="icon-label">Please select an option</span>
   </p>
 </div>

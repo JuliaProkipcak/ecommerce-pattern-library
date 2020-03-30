@@ -1,0 +1,46 @@
+patterns:
+  checkbox:
+    title: "Checkbox"
+    description: |
+      Use the checkbox in the checkout forms for confirmation of agreement.
+    fields:
+      - name: text
+        type: string
+        example: "I agree to the terms and conditions"
+      - name: error
+        type: string
+        example: "Please review and agree to the terms and conditions"
+  drop-down:
+    title: "Drop Down"
+    description: |
+      Use the drop down menu to select quantity, colour, size, dates or provinces. This can be applied either on the individual product pages or in the checkout form.
+    fields:
+      - name: option1
+        type: string
+        example: "1"
+      - name: option2
+        type: string
+        example: "2"
+      - name: option3
+        type: string
+        example: "3"
+      - name: option4
+        type: string
+        example: "4"
+      - name: option5
+        type: string
+        example: "5"
+  text-field-required:
+    title: "Required Text Field"
+    description: |
+      Use this in the checkout form whenever the user is required to type information.
+    fields:
+      - name: text
+        type: string
+        example: "Name"
+      - name: label
+        type: string
+        example: "name"
+      - name: error-msg
+        type: string
+        example: "Please type your name in the text field"

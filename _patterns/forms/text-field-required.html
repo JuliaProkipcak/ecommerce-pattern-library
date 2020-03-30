@@ -1,0 +1,8 @@
+<div>
+  <label for="{{include.label}}">{{include.text}}</label>
+  <input id="{{include.label}}" required aria-describedby="text-error">
+  <p class="error-message milli island-1-4 push-0" id="text-error">
+    <i class="icon i-16"><svg><use xlink:href="/images/icons.svg#error" /></svg></i>
+    <span class="icon-label">{{include-error-msg}}</span>
+  </p>
+</div>
