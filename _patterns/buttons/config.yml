@@ -11,6 +11,9 @@ patterns:
       - name: text
         type: string
         example: "Click Me!"
+      - name: url
+        type: string
+        example: "#"
   btn-ghost:
     title: "Ghost"
     description: |
@@ -19,6 +22,9 @@ patterns:
       - name: text
         type: string
         example: "Click Me!"
+      - name: url
+        type: string
+        example: "#"
   btn-light:
     title: "Light"
     description: |
@@ -39,3 +45,6 @@ patterns:
       - name: text
         type: string
         example: "ADD TO CART"
+      - name: url
+        type: string
+        example: "#"
